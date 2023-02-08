@@ -1,0 +1,79 @@
+h1 {
+  display: flex;
+  justify-content: flex-start;
+  color: whitesmoke;
+  margin-bottom: 10px;
+}
+
+.container {
+  display: flex;
+}
+
+.gameSelect {
+  display: flex;
+}
+
+#gameSelectFilter {
+  width: 200px;
+  padding: 8px 10px;
+  border-style: none;
+  background-color: rgba(50, 41, 136, 0.2);
+  color: whitesmoke;
+}
+
+.searchBar {
+  display: flex;
+  margin-left: 10px;
+}
+
+.searchBar input {
+  padding: 8px 30px;
+  width: 400px;
+  border-style: none;
+  background-color: rgba(50, 41, 136, 0.15);
+  color: whitesmoke;
+  background-image: url(../../../assets/icons8-search-15.png);
+  background-position: 10px 18px;
+  background-repeat: no-repeat;
+}
+
+.filters {
+  display: flex;
+}
+
+.filters select {
+  padding: 8px 10px;
+  width: 100px;
+  border-style: none;
+  background-color: rgba(50, 41, 136, 0.1);
+  color: whitesmoke;
+}
+
+.filters label {
+  display: flex;
+  background-color: rgba(50, 41, 136, 0.15);
+  color: whitesmoke;
+  font-size: 10px;
+  padding: 2px 4px;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../../../assets/icons8-purse-16.png);
+  background-position: 10px 18px;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  background-color: rgba(50, 41, 136, 0.15);
+}
+
+.item-type {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../../../assets/icons8-feather-16.png);
+  background-position: 10px 18px;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  background-color: rgba(50, 41, 136, 0.15);
+}
+
