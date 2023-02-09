@@ -162,6 +162,7 @@
   display: flex;
   justify-content: center;
   margin-top: 20px;
+  flex-wrap: wrap;
 }
 
 .pagination a {
@@ -186,4 +187,11 @@
 .arrow {
   border: 1px solid #5762d5;
   border-radius: 5px;
+}
+
+@media screen and (max-width: 350px) {
+  .number-items-sort {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }

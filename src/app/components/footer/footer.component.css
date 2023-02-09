@@ -6,7 +6,6 @@
   position: relative;
   bottom: 0;
   left: 0;
-  right: 0;
   color: whitesmoke;
 }
 
@@ -14,7 +13,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  height: 100px;
+  min-height: 100px;
   align-items: center;
   background-color: #303141;
   width: 100%;
@@ -30,7 +29,8 @@
 .payment-methods-content {
   display: flex;
   align-items: center;
-  width: 900px;
+  flex-wrap: wrap;
+  width: 70%;
 }
 
 .social-icons {
@@ -43,8 +43,14 @@
 .social-icons-content {
   display: flex;
   align-items: center;
-  width: 900px;
+  flex-wrap: wrap;
+  width: 70%;
   border-bottom: 1px solid #455779;
+}
+
+.social-icons-content img {
+  padding: 0 10px;
+  margin-bottom: 2px;
 }
 
 .footer {
@@ -58,9 +64,10 @@
 .footer-content {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding: 20px 22px;
-  width: 900px;
-  margin-left: 475px;
+  width: 70%;
+  margin-left: 200px;
 }
 
 .logo-link {
@@ -140,4 +147,18 @@
   display: flex;
   justify-content: center;
   padding: 15px 17px;
+}
+
+@media screen and (max-width: 820px) {
+  .footer-content {
+    margin-left: 0;
+  }
+
+  .payment-methods-content {
+    width: 90%;
+  }
+
+  .social-icons-content {
+    width: 85%;
+  }
 }
