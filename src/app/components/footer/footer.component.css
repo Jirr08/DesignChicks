@@ -31,13 +31,14 @@
   align-items: center;
   flex-wrap: wrap;
   width: 70%;
+  color: rgb(128, 126, 126);
 }
 
 .social-icons {
   display: flex;
   justify-content: center;
-  padding: 14px 16px;
-  height: 50px;
+  padding: 0px 16px;
+  height: 90px;
 }
 
 .social-icons-content {
@@ -50,7 +51,7 @@
 
 .social-icons-content img {
   padding: 0 10px;
-  margin-bottom: 2px;
+  /* margin-bottom: 2px; */
 }
 
 .footer {
@@ -93,8 +94,8 @@
 
 .chicks-gold a {
   text-decoration: none;
-  font-size: 12px;
-  color: whitesmoke;
+  font-size: 10px;
+  color: rgb(128, 126, 126);
   margin-top: 5px;
 }
 
@@ -107,8 +108,8 @@
 
 .support a {
   text-decoration: none;
-  font-size: 12px;
-  color: whitesmoke;
+  font-size: 10px;
+  color: rgb(128, 126, 126);
   margin-top: 5px;
 }
 
@@ -121,8 +122,8 @@
 
 .legal a {
   text-decoration: none;
-  font-size: 12px;
-  color: whitesmoke;
+  font-size: 10px;
+  color: rgb(128, 126, 126);
   margin-top: 5px;
 }
 
@@ -134,7 +135,7 @@
 .review a {
   text-decoration: none;
   font-size: 8px;
-  color: whitesmoke;
+  color: rgb(128, 126, 126);
   margin-top: 5px;
 }
 
