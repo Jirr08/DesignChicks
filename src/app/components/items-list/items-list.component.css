@@ -33,20 +33,64 @@
 }
 
 .stock {
-  border: 1px solid cyan;
-  color: aquamarine;
-  padding: 2px;
+  border: 1px solid rgb(3, 117, 117);
+  color: rgb(3, 117, 117);
+  padding: 2px 6px;
   font-size: 8px;
   margin-top: 3px;
+}
+
+.quantity {
+  display: flex;
 }
 
 .quantity input {
   display: flex;
   margin-left: 40px;
-  width: 40px;
-  border: none;
-  background-color: rgba(50, 41, 136, 0.1);
+  width: 20px;
+  border-style: none;
+  background-color: rgba(131, 122, 211, 0.3);
   color: whitesmoke;
+  padding: 1px 5px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.quantity input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.quantity input[type=number] {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.quantitybtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(131, 122, 211, 0.3);
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.quantitybtn button {
+  color: whitesmoke;
+  background-color: transparent;
+  border-style: none;
+  padding: 1px 5px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.upbtn{
+  margin-bottom: -8px;
+}
+
+.downtbn {
+  margin-top: -8px;
 }
 
 .number-items {
@@ -163,6 +207,7 @@
 .add-cart i {
   background-color: #454da8;
   padding: 4px 8px;
+  border-radius: 3px;
 }
 
 .pagination {
