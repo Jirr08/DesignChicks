@@ -51,7 +51,7 @@
   border-style: none;
   background-color: rgba(131, 122, 211, 0.3);
   color: whitesmoke;
-  padding: 1px 5px;
+  padding: 1px 6px;
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
 }
@@ -80,17 +80,19 @@ input::-webkit-inner-spin-button {
   color: whitesmoke;
   background-color: transparent;
   border-style: none;
-  padding: 1px 5px;
+  padding: 1px 0px;
+  padding-right: 6px;
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
+  font-size: 10px;
 }
 
 .upbtn{
-  margin-bottom: -8px;
+  margin-bottom: -6px;
 }
 
 .downtbn {
-  margin-top: -8px;
+  margin-top: -6px;
 }
 
 .number-items {
